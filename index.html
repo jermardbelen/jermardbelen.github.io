@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="php, mysql, tutorial, adobe, dreamweaver, software, programming, web, html, css">
+    <meta name="author" content="">
+
+    <title>Php MySQL Tutorial</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-blog-template.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Jermar Belen</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="about.html">About</a>
+            </li>
+            <li>
+              <a href="https://27.110.165.6:6969/wordpress">Blog</a>
+            </li>
+            <li>
+              <a href="javascript:history.back(-1)"> Back </a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container -->
+    </nav>
+
+
+    <!-- Page Content -->
+    <div class="container">
+
+      <div class="row">
+
+        <!-- Blog Post Content Column -->
+        <div class="col-lg-12">
+
+          <!-- Blog Post -->
+
+          <!-- Title -->
+          <h1 class="post-title">PHP/MYSQL Tutorial</h1>
+
+          <!-- Author -->
+          <p class="lead">
+            by Jermar Belen
+          </p>
+
+        <!-- Post Content -->
+        <div class="content">
+          <hr>
+          <p><span class="glyphicon glyphicon-time"></span> Posted on November 20, 2008</p>
+
+          <a id="php"></a>
+
+          <hr>
+          
+          <p>Hi, this is a simple and beginner friendly introduction on software development, even without prior knowledge on programming or html. I hope this would help someone spark interest in programming.</p>
+          <br/>
+          
+          <a href="img/1-Extract XAMPP.jpg" target="_blank"> 
+            <img src="img/1-Extract XAMPP.jpg" width="730px"  title="click to zoom">
+            <p align="center" style="padding-bottom: 50px;margin: 20px;" title="click to zoom"><strong>Figure 1 - Extract XAMPP</strong></p>
+          </a>
+
+          <a href="img/2-Open XAMPP Installer.jpg" target="_blank">
+            <img src="img/2-Open XAMPP Installer.jpg" width="730px"  title="click to zoom">
+            <p align="center" style="padding-bottom: 50px;margin: 20px;" title="click to zoom"><strong>Figure 2 - Open XAMPP Installer</strong></p>
+          </a>
+
+          <a href="img/3-Install XAMPP on C.jpg" target="_blank">
+            <img src="img/3-Install XAMPP on C.jpg" width="730px"  title="click to zoom">
+            <p align="center" style="padding-bottom: 50px;margin: 20px;" title="click to zoom"><strong>Figure 3 - Install XAMPP on C:\</strong></p>
+          </a>
+          
+          <a href="img/4-Install APACHE and MySQL as Service.jpg" target="_blank">
+            <img src="img/4-Install APACHE and MySQL as Service.jpg" width="730px"  title="click to zoom">
+            <p align="center" style="padding-bottom: 50px;margin: 20px;" title="click to zoom"><strong>Figure 4 - Install APACHE and MySQL as Service</strong></p>
+          </a>
+
+          <a href="img/5-Run XAMPP.jpg" target="_blank">
+            <img src="img/5-Run XAMPP.jpg" width="730px"  title="click to zoom">
+            <p align="center" style="padding-bottom: 50px;margin: 20px;" title="click to zoom"><strong>Figure 5 - Run XAMPP</strong></p>
+          </a>
+
+          <a id="mysql"></a>
+
+          <a href="img/6-Open localhost.jpg" target="_blank">
+            <img src="img/6-Open localhost.jpg" width="730px" >
+            <p align="center" style="padding-bottom: 50px;margin: 20px;"><strong>Figure 6 - Open localhost</strong></p>
+          </a>
+
+          <a href="img/7-Create Database on phpmyadmin.jpg" target="_blank">
+            <img src="img/7-Create Database on phpmyadmin.jpg" width="730px"  title="click to zoom">
+            <p align="center" style="padding-bottom: 50px;margin: 20px;" title="click to zoom"><strong>Figure 7 - Create Database on phpmyadmin </strong></p>
+          </a>
+
+          <a href="img/8-Create Table.jpg" target="_blank">
+            <img src="img/8-Create Table.jpg" width="730px"  title="click to zoom">
+            <p align="center" style="padding-bottom: 50px;margin: 20px;" title="click to zoom"><strong>Figure 8 - Create Table</strong></p>
+          </a>
+
+          <a href="img/9-Create Columns for table.jpg" target="_blank">
+            <img src="img/9-Create Columns for table.jpg" width="730px"  title="click to zomm">
+            <p align="center" style="padding-bottom: 50px;margin: 20px;" title="click to zoom"><strong>Figure 9 - Create Columns for table</strong></p>
+          </a>
+
+          <a href="img/10-Create another table for your database.jpg" target="_blank">
+            <img src="img/10-Create another table for your database.jpg" width="730px"  title="click to zoom">
+            <p align="center" style="padding-bottom: 50px;margin: 20px;" title="click to zoom"><strong>Figure 10 - Create another table for your database</strong></p>
+          </a>
+
+          <a id="dreamweaver"></a>
+
+          <a href="img/11-Extract Dreamweaver.jpg" target="_blank">
+            <img src="img/11-Extract Dreamweaver.jpg" width="730px"  title="click to zoom">
+            <p align="center" style="padding-bottom: 50px;margin: 20px;" title="click to zoom"><strong>Figure 11 - Extract Dreamweaver</strong></p>
+          </a>
+
+          <a href="img/12-Open Dreamweaver installer.jpg" target="_blank">
+            <img src="img/12-Open Dreamweaver installer.jpg" width="730px"  title="click to zoom">
+            <p align="center" style="padding-bottom: 50px;margin: 20px;" title="click to zoom"><strong>Figure 12 - Open Dreamweaver installer</strong></p>
+          </a>
+
+          <a href="img/13-Install Dreamweaver on drive C.jpg" target="_blank">
+            <img src="img/13-Install Dreamweaver on drive C.jpg" width="730px"  title="click to zoom">
+            <p align="center" style="padding-bottom: 50px;margin: 20px;" title="click to zoom"><strong>Figure 13 - Install Dreamweaver on drive C</strong></p>
+          </a>
+
+          <a href="img/14-Start Dreamweaver.jpg" target="_blank">
+            <img src="img/14-Start Dreamweaver.jpg" width="730px"  title="click to zoom">
+            <p align="center" style="padding-bottom: 50px;margin: 20px;" title="click to zoom"><strong>Figure 14 - Start Dreamweaver CS 6</strong></p>
+          </a>
+
+          <a href="img/15-Change IDE layout.jpg" target="_blank">
+            <img src="img/15-Change IDE layout.jpg" width="730px"  title="click to zoom">
+            <p align="center" style="padding-bottom: 50px;margin: 20px;" title="click to zoom"><strong>Figure 15 - Change IDE layout</strong></p>
+          </a>
+
+          <a href="img/16-Manage Sites.jpg" target="_blank">
+            <img src="img/16-Manage Sites.jpg" width="730px"  title="click to zoom">
+            <p align="center" style="padding-bottom: 50px;margin: 20px;" title="click to zoom"><strong>Figure 16 - Manage Sites</strong></p>
+          </a>
+
+          <a href="img/17-Create Site.jpg" target="_blank">
+            <img src="img/17-Create Site.jpg" width="730px"  title="click to zoom">
+            <p align="center" style="padding-bottom: 50px;margin: 20px;" title="click to zoom"><strong>Figure 17 - Create Site</strong></p>
+          </a>
+
+          <a href="img/18-Create site with server.jpg" target="_blank">
+            <img src="img/18-Create site with server.jpg" width="730px"  title="click to zoom">
+            <p align="center" style="padding-bottom: 50px;margin: 20px;" title="click to zoom"><strong>Figure 18 - Create site with server</strong></p>
+          </a>
+
+          <a href="img/19-Create new file.jpg" target="_blank">
+            <img src="img/19-Create new file.jpg" width="730px"  title="click to zoom">
+            <p align="center" style="padding-bottom: 50px;margin: 20px;" title="click to zoom"><strong>19 - Create new file</strong></p>
+          </a>
+
+          <a href="img/20-select template.jpg" target="_blank">
+            <img src="img/20-select template.jpg" width="730px"  title="click to zoom">
+            <p align="center" style="padding-bottom: 50px;margin: 20px;" title="click to zoom"><strong>Figure 20 - select template</strong></p>
+          </a>
+
+          <a href="img/21-Save file as .php.jpg" target="_blank">
+            <img src="img/21-Save file as .php.jpg" width="730px"  title="click to zoom">
+            <p align="center" style="padding-bottom: 50px;margin: 20px;" title="click to zoom"><strong>Figure 21 - Save file as .php</strong></p>
+          </a>
+
+          <a href="img/22-Create connection.jpg" target="_blank">
+            <img src="img/22-Create connection.jpg" width="730px"  title="click to zoom">
+            <p align="center" style="padding-bottom: 50px;margin: 20px;" title="click to zoom"><strong>Figure 22 - Create connection</strong></p>
+          </a>
+
+
+          <a href="img/23-Create Recordset.jpg" target="_blank">
+            <img src="img/23-Create Recordset.jpg" width="730px"  title="click to zoom">
+            <p align="center" style="padding-bottom: 50px;margin: 20px;" title="click to zoom"><strong>Figure 23 - Create Recordset</strong></p>
+          </a>
+
+          <a href="img/24-Create Table VIEW with Dynamic Table.jpg" target="_blank">
+            <img src="img/24-Create Table VIEW with Dynamic Table.jpg" width="730px"  title="click to zoom">
+            <p align="center" style="padding-bottom: 50px;margin: 20px;" title="click to zoom"><strong>Figure 24 - Create Table VIEW with Dynamic Table</strong></p>
+          </a>
+
+          <a href="img/25-Create link.jpg" target="_blank">
+            <img src="img/25-Create link.jpg" width="730px"  title="click to zoom">
+            <p align="center" style="padding-bottom: 50px;margin: 20px;" title="click to zoom"><strong>Figure 25 - Create link</strong></p>
+          </a>
+
+          <a href="img/26-create new page save as add.php.jpg" target="_blank">
+            <img src="img/26-create new page save as add.php.jpg" width="730px"  title="click to zoom">
+            <p align="center" style="padding-bottom: 50px;margin: 20px;" title="click to zoom"><strong>Figure 26 - create new page save as add.php</strong></p>
+          </a>
+
+          <a href="img/27-Create Add Form part1.jpg" target="_blank">
+            <img src="img/27-Create Add Form part1.jpg" width="730px"  title="click to zoom">
+            <p align="center" style="padding-bottom: 50px;margin: 20px;" title="click to zoom"><strong>Figure 27 - Create Add Form part1</strong></p>
+          </a>
+
+          <a href="img/28-Create Add Form part2.jpg" target="_blank">
+            <img src="img/28-Create Add Form part2.jpg" width="730px"  title="click to zoom">
+            <p align="center" style="padding-bottom: 50px;margin: 20px;" title="click to zoom"><strong>Figure 28 - Create Add Form part2</strong></p>
+          </a>
+          
+          <p>After saving your project (CTRL + S), you can preview your system on your web browser. Just type http://localhost/sample</p>
+          
+          <em>*This guide is only for personal use or getting your feet wet on programming. This is, by no means, the reccomended way of making industry standard information systems or websites. To learn more visit <a href="https://www.w3schools.com/html/html_tables.asp">w3schools</a>. Thank you</em>
+
+           <hr>
+        </div>
+
+
+          <!-- Comments Form -->
+          <div class="well">
+            <h4>Leave a Comment:</h4>
+            <form role="form">
+              <div class="form-group">
+                <textarea class="form-control" rows="3" readonly></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+
+          <hr>
+
+          <!-- Posted Comments -->
+
+          <!-- Comment -->
+          <div class="media">
+            <a class="pull-left" href="#">
+              <img class="media-object" src="img/Profile1.png" alt="" width="64px">
+            </a>
+            <div class="media-body">
+              <h4 class="media-heading">User
+                <small>November 20, 2008 at 9:30 PM</small>
+              </h4>
+              Download links:
+              <ul>
+                <li><a href="https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/1.7.1/" target="_blank">XAMPP installer</a></li>
+                <li><a href="https://www.adobe.com/ph_en/products/dreamweaver.html" target="_blank">Adobe Dreamweaver</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- End Nested Comment -->
+          </div>
+      </div>
+      <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <p>Copyright &copy; Jermar Belen 2008</p>
+          </div>
+          <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+      </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+
+</html>
